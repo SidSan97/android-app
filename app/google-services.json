@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969705558983",
+    "firebase_url": "https://comanaufba-b3171.firebaseio.com",
+    "project_id": "comanaufba-b3171",
+    "storage_bucket": "comanaufba-b3171.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969705558983:android:2e27e64e8b620599",
+        "android_client_info": {
+          "package_name": "com.hopper.comanaufba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969705558983-uajfo5p97n0pd6qnsj1obhih38neejil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hopper.comanaufba",
+            "certificate_hash": "ff73ba229e467814efb290bf2977d2facea4d526"
+          }
+        },
+        {
+          "client_id": "969705558983-00fi48bf8iaheubioqblkphrb49el8pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASCD6mBF5M8xFFRlOOsq3bigHTqz4WBSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969705558983-00fi48bf8iaheubioqblkphrb49el8pq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
