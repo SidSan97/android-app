@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Coma Na UFBA</string>
+    <string name="facebook_application_id" translatable="false">2472142373014530</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb230360502b397101eb7903802bce3bd2</string>
+
 </resources>
