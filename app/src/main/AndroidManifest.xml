@@ -16,7 +16,7 @@
         <activity
             android:name=".activities.CadastroActivity"
             android:exported="true"
-            android:label="@string/title_activity_cadastro2"
+            android:label="Cadastro"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activities.VendedorDetalhes" />
         <activity android:name=".activities.MainActivity"
