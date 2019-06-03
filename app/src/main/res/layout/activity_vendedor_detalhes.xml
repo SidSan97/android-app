@@ -7,48 +7,88 @@
         android:layout_height="match_parent"
         tools:context=".activities.VendedorDetalhes">
 
-    <LinearLayout
-            android:orientation="vertical"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="8dp" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="8dp">
-        <ImageView
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagemDetail"
                 android:layout_width="match_parent"
-                android:layout_height="301dp" tools:srcCompat="@tools:sample/avatars"
-                android:id="@+id/imagemDetail"/>
-        <TextView
+                android:layout_height="301dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Vendinha do Zé"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tags"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textNome" android:textSize="24sp"/>
-        <TextView
+                android:layout_height="wrap_content"
+                android:text="Sem tags" />
+
+            <TextView
+                android:id="@+id/textAberto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Aberto agora! 10:00 - 18:00"
+                android:textColor="#4CAF50"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textLocal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textAberto" android:textColor="#4CAF50"
-                android:textSize="18sp"/>
-        <TextView
+                android:layout_height="wrap_content"
                 android:text="Próximo ao PAF I - Ondina"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textTelefone"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textLocal" android:textSize="18sp"/>
-        <TextView
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
                 android:text="71997023320"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textDescricao"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textTelefone" android:textSize="18sp"
-                android:autoLink="phone"/>
-        <TextView
+                android:layout_height="wrap_content"
                 android:text="Temos yakisoba do + top"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textoPagamento"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textDescricao" android:textSize="18sp"/>
-        <TextView
+                android:layout_height="wrap_content"
                 android:text="Aceita débito, crédito"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonCaminho"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/textoPagamento" android:textSize="18sp"/>
-        <Button
-                android:text="Mostrar caminho"
-                android:layout_width="match_parent"
-                android:layout_height="0dp" android:id="@+id/buttonCaminho" android:layout_weight="1"
-        />
-    </LinearLayout>
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Mostrar caminho" />
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

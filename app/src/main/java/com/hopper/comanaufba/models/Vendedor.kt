@@ -14,8 +14,8 @@ class Vendedor(
     val aberto: Boolean,
     val imagemRef: String?,
     val campus: String,
-    val formasPagamento: ArrayList<String>
-               //val categorias: ArrayList<String>,
+    val formasPagamento: ArrayList<String>,
+    val tags: List<String>
                //val itens: HashMap<String, Boolean>
 ){
 
